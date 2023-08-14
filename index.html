@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Learn Good Habits</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Good Habits Learning Zone!</h1>
+    </header>
+    <main>
+        <p>Click on each good habit to learn more:</p>
+        <div class="habits">
+            <div class="habit-card" onclick="displayHabit('brushing')">
+                <img src="brushing.jpg" alt="Brushing Teeth">
+                <p>Brushing Teeth</p>
+            </div>
+            <div class="habit-card" onclick="displayHabit('washing')">
+                <img src="washing.jpg" alt="Washing Hands">
+                <p>Washing Hands</p>
+            </div>
+            <div class="habit-card" onclick="displayHabit('sleeping')">
+                <img src="sleeping.jpg" alt="Sleeping Early">
+                <p>Sleeping Early</p>
+            </div>
+        </div>
+        <div id="habit-info"></div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
